@@ -1,20 +1,26 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+
+    <title>Seerat Fatima | BS Information Technology Student</title>
+
+    <meta name="description" content="Official portfolio of Seerat Fatima, a BS Information Technology student at the University of Kamalia.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+    <!-- Navigation -->
+    <header class="header">
         <div class="container navbar">
-            <h2 class="logo">My Portfolio.</h2>
 
-            <nav>
+            <a href="#home" class="logo">SF<span>.</span></a>
+
+            <nav class="nav-links">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#education">Education</a>
@@ -22,127 +28,395 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </nav>
+
         </div>
     </header>
 
     <main>
 
+        <!-- Home Section -->
         <section id="home" class="hero">
             <div class="container hero-content">
-                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
-                <h1>Hello, I'm <span>Seerat Fatima</span></h1>
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
 
-                <h3>Computer Science Student</h3>
+                <h1>
+                    Hello, I'm <span>Seerat Fatima</span>
+                </h1>
 
-                <p>
-                    I am a passionate student interested in technology,
-                    programming and learning new skills.
-                    I believe in continuous learning and creativity.
+                <h2>BS Information Technology Student</h2>
+
+                <p class="hero-description">
+                    I am an enthusiastic IT student who enjoys exploring
+                    technology, learning programming and developing new
+                    technical skills. I believe in continuous learning
+                    and improving through practical experience.
                 </p>
 
-                <a href="#about" class="btn">Explore More</a>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn outline-btn">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-details">
+                    <span>Information Technology</span>
+                    <span>•</span>
+                    <span>Programming</span>
+                    <span>•</span>
+                    <span>Learning & Growth</span>
+                </div>
+
             </div>
         </section>
 
+
+        <!-- About Section -->
         <section id="about" class="section">
             <div class="container">
+
+                <p class="section-label">GET TO KNOW ME</p>
                 <h2 class="section-title">About Me</h2>
 
-                <div class="card">
+                <div class="about-card">
+
                     <p>
-                        I am a passionate BS Computer Science student
-at the University of Kamalia. I have an interest
-in web development, programming and modern
-technology. I enjoy learning new skills, solving
-problems and working on practical projects.
-My goal is to become a skilled computer
-professional.
+                        My name is Seerat Fatima. I am a Bachelor of
+                        Science in Information Technology (BSIT) student
+                        at the University of Kamalia, Pakistan.
                     </p>
+
+                    <p>
+                        I have an interest in information technology,
+                        programming, computer networking and web
+                        development. I enjoy learning new tools and
+                        improving my technical and problem-solving skills.
+                    </p>
+
+                    <p>
+                        Along with my technical learning, I have experience
+                        working with Microsoft Office, Canva, data entry
+                        and online research for academic tasks.
+                    </p>
+
+                    <p>
+                        My goal is to grow as an IT professional and use
+                        my knowledge to create useful and effective
+                        digital solutions.
+                    </p>
+
+                    <div class="personal-info">
+                        <div>
+                            <span>Location</span>
+                            <strong>Kamalia, Pakistan</strong>
+                        </div>
+
+                        <div>
+                            <span>Degree</span>
+                            <strong>BS Information Technology</strong>
+                        </div>
+
+                        <div>
+                            <span>University</span>
+                            <strong>University of Kamalia</strong>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="education" class="section">
+
+        <!-- Education Section -->
+        <section id="education" class="section alternate">
             <div class="container">
-                <h2 class="section-title">My Education</h2>
 
-                <div class="card">
-                    <h3>Bachelor of Science in Computer Science</h3>
-                    <p>University of Kamalia</p>
-                    <p>Currently in 2nd Year</p>
+                <p class="section-label">MY ACADEMIC JOURNEY</p>
+                <h2 class="section-title">Education</h2>
+
+                <div class="education-list">
+
+                    <div class="education-card">
+                        <div class="education-number">01</div>
+
+                        <div class="education-content">
+                            <span class="education-year">2022</span>
+
+                            <h3>Matriculation</h3>
+
+                            <p class="institution">
+                                Government Girls High School,
+                                192 GB Ojla
+                            </p>
+
+                            <p class="education-marks">
+                                Marks: 1002 / 1100
+                            </p>
+
+                            <span class="percentage">91.09%</span>
+                        </div>
+                    </div>
+
+
+                    <div class="education-card">
+                        <div class="education-number">02</div>
+
+                        <div class="education-content">
+                            <span class="education-year">2024</span>
+
+                            <h3>Intermediate - FSc Non-Medical</h3>
+
+                            <p class="institution">
+                                Aspire College, Toriwala
+                            </p>
+
+                            <p class="education-marks">
+                                Marks: 862 / 1200
+                            </p>
+
+                            <span class="percentage">71.83%</span>
+                        </div>
+                    </div>
+
+
+                    <div class="education-card">
+                        <div class="education-number">03</div>
+
+                        <div class="education-content">
+                            <span class="education-year">2025 - Present</span>
+
+                            <h3>
+                                Bachelor of Science in Information
+                                Technology (BSIT)
+                            </h3>
+
+                            <p class="institution">
+                                University of Kamalia
+                            </p>
+
+                            <p class="education-marks">
+                                Currently in 2nd Year
+                            </p>
+
+                            <span class="status">Currently Studying</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
+
+        <!-- Skills Section -->
         <section id="skills" class="section">
             <div class="container">
+
+                <p class="section-label">MY TECHNICAL ABILITIES</p>
                 <h2 class="section-title">My Skills</h2>
 
                 <div class="skills-grid">
-                
-                    <div class="skill">C++ Programming</div>
-                    <div class="skill">MS Word</div>
-                    <div class="skill">PowerPoint</div>
-                    <div class="skill">MS Excel</div>
-                    <div class="skill">Canva</div>
-                    <div class="skill">Data Entry</div>
-                    <div class="skill">Web Research</div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>HTML</h3>
+                        <p>Web Page Structure</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>CSS</h3>
+                        <p>Web Page Styling</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>C++</h3>
+                        <p>Programming Fundamentals</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>MS Word</h3>
+                        <p>Document Preparation</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">05</span>
+                        <h3>PowerPoint</h3>
+                        <p>Presentation Design</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">06</span>
+                        <h3>MS Excel</h3>
+                        <p>Data Organization</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">07</span>
+                        <h3>Canva</h3>
+                        <p>Creative Designs</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">08</span>
+                        <h3>Data Entry</h3>
+                        <p>Data Management</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">09</span>
+                        <h3>Web Research</h3>
+                        <p>Online Information Research</p>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="section">
+
+        <!-- Projects Section -->
+        <section id="projects" class="section alternate">
             <div class="container">
-                <h2 class="section-title">My Projects</h2>
+
+                <p class="section-label">WHAT I HAVE WORKED ON</p>
+                <h2 class="section-title">Academic Projects</h2>
 
                 <div class="projects-grid">
 
-                    <div class="card project-card">
+                    <article class="project-card">
+                        <span class="project-tag">C++ Programming</span>
+
                         <h3>Student Result Management System</h3>
-                        <p>
-                            A C++ project designed to manage student
-                            records, marks and results.
-                        </p>
-                    </div>
 
-                    <div class="card project-card">
-                        <h3>Computer Networking</h3>
                         <p>
-                            Practical networking tasks using
-                            Cisco Packet Tracer.
+                            An academic C++ project designed to manage
+                            student records, marks and result information
+                            through basic programming concepts.
                         </p>
-                    </div>
 
-                    <div class="card project-card">
-                        <h3>Academic Presentations</h3>
+                        <div class="project-footer">
+                            Programming Project
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <span class="project-tag">Computer Networking</span>
+
+                        <h3>Networking Practical Work</h3>
+
                         <p>
-                            Educational presentations and documents
-                            created using Microsoft Office.
+                            Practical networking activities using Cisco
+                            Packet Tracer, including network configuration,
+                            VLAN concepts and basic network design.
                         </p>
-                    </div>
+
+                        <div class="project-footer">
+                            Networking Lab
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <span class="project-tag">Microsoft Office</span>
+
+                        <h3>Academic Presentations & Documents</h3>
+
+                        <p>
+                            Preparation of academic presentations,
+                            assignments and organized documents using
+                            Microsoft Word and PowerPoint.
+                        </p>
+
+                        <div class="project-footer">
+                            Academic Work
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <span class="project-tag">Web Development</span>
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            A personal portfolio website developed using
+                            HTML and CSS to present my education, skills,
+                            academic work and contact information.
+                        </p>
+
+                        <div class="project-footer">
+                            Web Development
+                        </div>
+                    </article>
 
                 </div>
             </div>
         </section>
 
+
+        <!-- Contact Section -->
         <section id="contact" class="section">
             <div class="container">
+
+                <p class="section-label">LET'S CONNECT</p>
                 <h2 class="section-title">Contact Me</h2>
 
-                <div class="card contact-card">
-                    <p><strong>Email:</strong> sg4331218@gmail.com</p>
-                    <p><strong>GitHub:</strong> Add your GitHub profile link here</p>
+                <div class="contact-card">
+
+                    <h3>Let's Connect and Stay in Touch</h3>
+
+                    <p>
+                        If you would like to connect, discuss an opportunity
+                        or know more about my work, feel free to contact me.
+                    </p>
+
+                    <div class="contact-links">
+
+                        <a href="mailto:sg4331218@gmail.com"
+                           class="btn primary-btn">
+                            Email Me
+                        </a>
+
+                        <a href="https://github.com/seerat-fatima-cs"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn outline-btn">
+                            GitHub Profile
+                        </a>
+
+                    </div>
+
+                    <p class="location-text">
+                        Kamalia, Pakistan
+                    </p>
+
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 My Personal Portfolio | All Rights Reserved</p>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <a href="#home" class="footer-logo">SF.</a>
+
+            <p>
+                © 2026 Seerat Fatima. All Rights Reserved.
+            </p>
+
+            <a href="#home" class="back-top">Back to Top ↑</a>
+
+        </div>
     </footer>
 
 </body>
 </html>
-```
